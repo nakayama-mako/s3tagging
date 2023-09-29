@@ -2,7 +2,7 @@
 ローカル実行用S3オブジェクトタグ付けプログラム
 ## 使用方法
 ### コマンド
-`go main.go -bucket "XXX" -regex "XX" -tags "Key=Value,Key=Value"`
+`go run main.go -bucket "XXX" -regex "XX" -tags "Key=Value,Key=Value"`
 ### 引数
 | 引数名 | 内容 | 例 |
 | ---- | ---- | ---- |
