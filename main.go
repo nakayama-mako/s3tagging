@@ -17,13 +17,6 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/s3/types"
 )
 
-type CommandOption struct {
-	Bucket string
-	Regex  string
-	Output bool
-	Tags   string
-}
-
 type ListObjectsResponse struct {
 	Keys      *[]*string
 	NextToken *string
